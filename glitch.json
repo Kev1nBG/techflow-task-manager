@@ -1,0 +1,10 @@
+{
+  "start": "python3 src/sistema.py",
+  "install": "pip3 install -r requirements.txt",
+  "watch": {
+    "throttle": 1000,
+    "include": [
+      "\\.py$"
+    ]
+  }
+}
